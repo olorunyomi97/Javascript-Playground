@@ -80,3 +80,28 @@
 //     console.log(counterTwo);
 //     counterTwo--;
 // } while (counterTwo > 0);
+
+// ADVANCED ARRAYS
+
+// const array = [1, 2, 5, 20];
+
+// const double = []
+// const newArray = array.forEach((num) => {
+//     double.push(num * 10);
+// })
+// console.log(double);
+
+// const flattened = [[0,1], [2,3], [4,5]].reduce(
+//     (accumulator, array) => {
+//         debugger;
+//         return accumulator.concat(array)
+// }, []);
+
+// call back 
+
+console.log('1');
+setTimeout(() => {
+    console.log('2');
+}, 3000)
+console.log('3');
+
